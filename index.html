@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOLDEN FLOUR - HOME</title>
+    <link rel="icon" type="image/x-icon" href="../images/goldenflour.jpg">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" media="screen and (max-width: 821px)" href="../css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar Section -->
+    <nav id="navbar" class="flex s-around bg-color">
+        <div class="left-nav">
+            <h2 class="t-white">Golden Flour!</h2>
+        </div>
+        <div class="right-nav">
+            <ul class="flex">
+                <li><a href="#home" class="t-white roboto">Home</a></li>
+                <li><a href="../index/product.html" class="t-white roboto">Product</a></li>
+                <li><a href="#about" class="t-white roboto">About us</a></li>
+                <li><a href="#services" class="t-white roboto">services</a></li>
+                <li><a href="#contact" class="t-white roboto">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Bottom Navigator -->
+    <section id="bottom">
+        <div class="bottom-nav flex s-center items-center">
+            <ul class="flex s-around items-center">
+                <a href="#home">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-house"></i></li>
+                </a>
+                <a href="../index/product.html">
+                    <li class="bottomo-hover flex s-center items-center">   <i class="fa-solid fa-cart-shopping"></i> </li>
+                    
+                </a>
+                <a href="#contact">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-user"></i></li>
+                </a>
+                <a href="#services">
+                    <li class="bottomo-hover flex s-center items-center">
+                        <i class="fa-solid fa-wrench"></i>
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Home Section -->
+    <section id="home" class="flex s-around sw-80 m-auto">
+        <div class="home-left flex items-center">
+            <div class="home-content">
+                <h6 class="poppinss">hey Welcome to !</h6>
+                <h1 class="t-blue">Golden Flour</h1>
+                <h4 class="poppinss">ALL RIGHT RESERVED@2023</h4>
+                <a href="#" target="_blank"><button class="btn poppins">More</button></a>
+                <a class="btn live poppins" id="hireme" href="#contact" target="_blank">Let's Talk</a>
+            </div>
+        </div>
+        <div class="home-right flex s-center items-center">
+            <div class="circle flex s-center items-center" id="mainImage">
+                <!-- Here in src replace the given link with your image link -->
+                <img src="../images/goldenflour.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h1 class="t-center my-2 t-blue f-2">About product</h1>
+        <div class="about-container flex s-around ">
+            <div class=" about-left flex s-center items-center">
+                <!-- Here in src replade the given link with your secondary image link -->
+                <img src="../images/packingbagfront.jpg" alt="" style="width: 50%;">
+            </div>
+
+            <div class="about-right flex">
+                <div class="about-content">
+                    <h1 class="t-danger m-b-1 poppins">Golden Flour...!</h1>
+                    <p class="t-danger poppins">BESAN <br>
+                        besan is a nutritious and versatile ingredient that can be used in a variety of dishes. It is a
+                        good source of protein, fiber, and vitamins and minerals. </p>
+
+                        <i class="fa-solid fa-circle-check"></i> <p class="rightAr">100% Atta, 0% maida. </p><br><br>
+                        <i class="fa-solid fa-circle-check"></i><p class="rightAr" >Touch less Processing.</p> <br><br>
+                        <i class="fa-solid fa-circle-check"></i> <p class="rightAr">Hygienically packed. </p><br><br>
+                        <i class="fa-solid fa-circle-check"></i> <p class="rightAr">Made with Finest MP Wheat. </p>
+                    <a class="btn live poppins" id="hireme" href="#">More</a>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Services Section -->
+    <section id="services">
+        <h1 class=" t-center my-2 t-blue f-2">Services</h1>
+        <div class="services-container flex s-center">
+            <div class="test-item flex f-col items-center">
+                <img src="../images/HOMEDELIVERY.png" alt="">
+                <h1 class="t-white poppins">HOME DELIVERY</h1>
+                <p class="t-white poppins">We offer home delivery for all of our products, so you can get what you need
+                    without having to leave the comfort of your own home. Our delivery service is fast, convenient, and
+                    reliable, so you can be sure that your order will arrive on time and in perfect condition.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Me Section -->
+    <section id="contact" class="m-b-1">
+        <h1 class=" t-center my-2 t-blue f-2">Contact Me</h1>
+        <div class="contact-container flex s-around items-centers">
+            <div class="form" id="contactForm">
+                <form action="" id="contactFrom">
+                    <div class="name form-div">
+                        <input type="text" name="name" id="name" class="poppins" placeholder="Enter Your Name">
+                    </div>
+                    <div class="email form-div">
+                        <input type="email" name="email" id="email" class="poppins" placeholder="Enter Your Email"
+                            required>
+                    </div>
+                    <div class="phone form-div">
+                        <input type="phone" name="phone" id="phone" class="poppins" placeholder="Enter Your Phone"
+                            required>
+                    </div>
+                    <div class="textarea form-div">
+                        <textarea name="text" id="textarea" cols="30" rows="10" class="poppins"
+                            placeholder="Enter Messages"></textarea>
+                    </div>
+                    <button type="submit" class="btn poppins" id="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <ul class="flex s-center w-80 m-auto my-2 res">
+            <li><a href="#home" class="poppinss">Home</a></li>
+            <li><a href="#about" class="poppinss">product</a></li>
+            <li><a href="#skills" class="poppinss">About </a></li>
+            <li><a href="#projects" class="poppinss">services</a></li>
+            <li><a href="#portfolio" class="poppinss">contact</a></li>
+        </ul>
+        <ul class="flex s-center w-80 font-awesome ">
+            <a href="https://www.linkedin.com/in/umair-khan-b49b42262/" target="_blank">
+                <li><i class="fa-brands fa-linkedin-in"></i></li>
+            </a>
+            <a href="https://github.com/Getcodewidumair/Getcodewidumair" target="_blank">
+                <li><i class="fa-brands fa-github"></i></li>
+            </a>
+            <a href="https://www.instagram.com/getcodewidumair/" target="_blank">
+                <li><i class="fa-brands fa-instagram"></i></li>
+            </a>
+            <a href="https://www.youtube.com/@UmairKhan-lz9tr" target="_blank">
+                <li><i class="fa-brands fa-youtube"></i></li>
+            </a>
+        </ul>
+        <p class="t-center my-2 poppins">&copy; All Rights Reserved - <span class="cpy-white poppins">Golden
+                flour</span></p>
+
+    </footer>
+
+    <div id="scroll-top" onclick="scrolltop()">
+        <span><i class="fa-solid fa-arrow-up"></i></span>
+    </div>
+
+</body>
+<script src="/script.js"></script>
+
+</html>
