@@ -1,0 +1,160 @@
+*{padding:0; margin:0; box-sizing: border-box; font-family:sans-serif;}
+header{
+width: 100vw;
+min-height: 100vh;
+background: #e9f4ff;
+font-size: 1.2rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container{
+background: white;
+max-width: 800px;
+min-height: 500px;
+box-shadow: #34495e;
+display: flex;
+justify-content:space-between;
+align-items: flex-start;
+padding: 0.5rem 1.5rem;
+}
+.left{
+flex-basis: 50%;
+}
+.right{
+flex-basis: 50%;
+}
+form{
+padding: 1rem;
+}
+
+h3{
+margin-top: 1rem;
+color:#2c3e50;
+}
+
+form input[type="text"]{
+width: 100%;
+padding: 0.5rem 0.7rem;
+margin: 0.5rem 0;
+outline: none;
+}
+
+#zip{
+display: flex;
+margin-top: 0.5rem;
+}
+#zip select{
+padding: 0.5rem 0.7rem;
+}
+#zip input[type="number"]{
+padding: 0.5rem 0.7rem;
+margin-left: 5px;
+}
+input[type="submit"]{
+width: 100%;
+padding: 0.7rem 1.5rem;
+background: #34495e;
+color: white;
+border: none;
+outline: none;
+margin-top: 1rem;
+cursor: pointer;
+}
+ /* footer css  */
+#main1{
+    background-color: rgb(202, 236, 255);
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div1{
+ margin-right:1rem;
+}
+
+#main1 a{
+    list-style: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#main1 a:hover{
+    color: goldenrod;
+}
+.btn11{
+    font-size: 1rem;
+    width: 9.5rem;
+    height: 2.5rem;
+    box-shadow: #34495e;
+    background: #34495e;
+    border: none;
+}
+.btn11:hover{
+    background: transparent;
+    transition: opacity 3s linear;
+    opacity: 0;
+    background-color: rgb(236, 252, 96);
+
+}
+
+.btn12{
+    box-shadow: #34495e;
+    border: none;
+    font-size: 1rem;
+    width: 9.5rem;
+    height: 2.5rem;
+    background: #181816;
+}
+.btn12:hover{
+    background: transparent;
+    background: transparent;
+    transition: opacity 3s linear;
+    opacity: 0;
+    background-color: rgb(236, 252, 96);
+}
+
+/* footer css ends  */
+input[type="submit"]:hover{
+background: #2c3e50;
+}
+
+
+/* responsiveness css strts  */
+@media only screen and (max-width: 770px){
+.container{
+flex-direction: column;
+}
+#main1{
+  height: max-content;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn12{
+    margin-top: 0.5rem;
+}
+body{
+overflow-x: hidden;
+}
+}
+
+@media only screen and (max-width: 470px){
+
+    #main1{
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+        }
+    body{
+        overflow-x: hidden;
+        }
+
+
+
+
+}
+
+ 
